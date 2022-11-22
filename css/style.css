@@ -216,6 +216,19 @@ p{
     position: absolute;
     z-index: 3;
 }
+.toggle{
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--primary-color);
+    line-height: 30px;
+    text-align: center;
+    margin-left: auto;
+    display: none;
+}
+.toggle i{
+    color: var(--white-color);
+    font-size: 18px;
+}
 nav{
     margin-left: auto;
     margin-right: var(--gutter-padding);
@@ -319,7 +332,8 @@ nav ul li a span{
 .service-text{
     font-weight: 600;
     position: absolute;
-    transform: translateY(190px);
+    transform: translateY(170px);
+    transition: all 0.5s ease;
 
 }
 .service-box:hover .service-text{
